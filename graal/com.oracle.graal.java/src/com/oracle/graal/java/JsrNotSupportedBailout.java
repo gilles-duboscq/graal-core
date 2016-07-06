@@ -24,6 +24,9 @@ package com.oracle.graal.java;
 
 import jdk.vm.ci.code.BailoutException;
 
+/**
+ * Exception thrown when the parser encounters an unsupported JSR pattern.
+ */
 public class JsrNotSupportedBailout extends BailoutException {
 
     private static final long serialVersionUID = -7476925652727154272L;
